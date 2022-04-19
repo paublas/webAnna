@@ -1,0 +1,18 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/6/3.png", "coords": "70%", "size": "15vw", "height": "110%"},
+        {"url": "assets/projectes acabats/6/4.png", "coords": "10%", "size": "30vw", "height": "40%"},
+        {"url": "assets/projectes acabats/6/5.jpg", "coords": "30%", "size": "25vw", "height": "170%"},
+        {"url": "assets/projectes acabats/6/6.jpg", "coords": "70%", "size": "25vw", "height": "300%"},
+        {"url": "assets/projectes acabats/6/7.jpg", "coords": "70%", "size": "10vw", "height": "240%"},
+        {"url": "assets/projectes acabats/6/8.jpg", "coords": "25%", "size": "25vw", "height": "390%"},
+        {"url": "assets/projectes acabats/6/9.jpg", "coords": "10%", "size": "10vw", "height": "290%"},
+        {"url": "assets/projectes acabats/6/10.jpg", "coords": "70%", "size": "15vw", "height": "490%"},
+        {"url": "assets/projectes acabats/6/11.jpg", "coords": "10%", "size": "15vw", "height": "560%"},
+        {"url": "assets/projectes acabats/6/12.jpg", "coords": "17%", "size": "15vw", "height": "610%"}
+    ],
+    "text" : "For this project FORGO, a small brand new personal care company, wanted to launch a sister-company para comercializar productos de skin-care. FORGO's values stand for low waste, low emissions and low toxin products, mostly based in a refill system. With this project, we developed this new brand, its philosophy and values, its products and packaging, and the user experience involving the different products. \n Bare means naked, nude, uncovered, exposed, in state of nature. The message we want to convey is that sustainability should not be complicated. Bare is an intuitive, effortless, honest, sustainable, and vegan skincare brand. For this reason, the products are designed to be easy to assemble and use. We believe in order to achieve sustainability in the whole process we have to keep in mind the shipping and the life of the packaging. To achieve the first of these, we decided to create a subscription system of bar refill products that helps to reduce the amount of bottles that are made and, most important, reduces the Co2 emissions by reducing the amount of material that is shipped, in this case, not transporting water. Finally, we decided to create a long-lasting packaging that, because of its simplicity, the user can keep and reuse once the product is finished.",
+    "height": "663%"
+   
+    
+}

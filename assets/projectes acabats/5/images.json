@@ -1,0 +1,11 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/5/1.png", "coords": "10%", "size": "25vw", "height": "40%"},
+        {"url": "assets/projectes acabats/5/2.png", "coords": "70%", "size": "25vw", "height": "120%"},
+        {"url": "assets/projectes acabats/5/3.png", "coords": "65%", "size": "20vw", "height": "210%"},
+        {"url": "assets/projectes acabats/5/4.jpeg", "coords": "40%", "size": "25vw", "height": "350%"},
+        {"url": "assets/projectes acabats/5/5.png", "coords": "5%", "size": "20vw", "height": "300%"}
+    ],
+    "text" : "For this project Lékué asked us to redesign the primary and secondary packaging of an e-commerce kit taking into account the sustainability of the whole packaging system. \n Less is Enough Kit combines primary and secondary packaging to reduce volume, weight and material. The hexagonal shape is more efficient and allows for a better use of space. On the one hand, it adapts better to the articles it wraps, but it also allows the capacity of packages per pallet to be increased. This has a great impact on the transport phase, one of the most polluting phases of the sales process. \n In order to bring a more circular perspective we decided to modify the commercialized kit. We reduced the kit to the essential elements needed and added the Bread Making Bag, a bag that acts as both a product and packaging at the same time. On the one hand it complements the elements of the kit and on the other hand it is also presented as a packaging to store and preserve them.",
+    "height": "440%"
+}

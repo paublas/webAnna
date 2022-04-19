@@ -1,0 +1,13 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/3/1.jpg", "coords": "5%", "size": "35vw", "height": "40%"},
+        {"url": "assets/projectes acabats/3/2.jpg", "coords": "30%", "size": "25vw", "height": "110%"},
+        {"url": "assets/projectes acabats/3/3.jpg", "coords": "75%", "size": "15vw", "height": "150%"},
+        {"url": "assets/projectes acabats/3/4.jpg", "coords": "10%", "size": "40vw", "height": "190%"}
+    ],
+    "text" : "Pull makes everyday life a permanent state of climbing. Through the study of rock climbing and the analysis of its impact on the human body, we created a suit that revives the body tensions experienced by the subject in the practice of this activity. \n Analyzing the movements and feelings one has when climbing we realized that the position of the shoulders has a great impact on the hands, and the same happens with the hips and the toes, that their connection is meaningful on the possible movements one can do. \n This suit recreates the feelings experienced when practicing this sport through an elastic material that, with the possibility of regulating its tension, allows you to change the intensity of effort required when carrying out different tasks. Pull revives the stress the body feels while climbing through daily live activities.",
+    "height": "255%"
+
+
+}
+

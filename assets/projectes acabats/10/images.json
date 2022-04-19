@@ -1,0 +1,18 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/10/1.jpeg", "coords": "10%", "size": "20vw", "height": "40%"},
+        {"url": "assets/projectes acabats/10/2.JPG", "coords": "80%", "size": "15vw", "height": "100%"},
+        {"url": "assets/projectes acabats/10/3.JPG", "coords": "60%", "size": "10vw", "height": "150%"},
+        {"url": "assets/projectes acabats/10/4.JPG", "coords": "10%", "size": "25vw", "height": "200%"},
+        {"url": "assets/projectes acabats/10/5.jpeg", "coords": "40%", "size": "10vw", "height": "260%"},
+        {"url": "assets/projectes acabats/10/6.JPG", "coords": "60%", "size": "25vw", "height": "330%"},
+        {"url": "assets/projectes acabats/10/7.jpeg", "coords": "10%", "size": "20vw", "height": "430%"},
+        {"url": "assets/projectes acabats/10/8.JPG", "coords": "50%", "size": "10vw", "height": "480%"},
+        {"url": "assets/projectes acabats/10/9.jpeg", "coords": "30%", "size": "20vw", "height": "530%"},
+        {"url": "assets/projectes acabats/10/10.jpeg", "coords": "10%", "size": "30vw", "height": "610%"},
+        {"url": "assets/projectes acabats/10/11.jpeg", "coords": "60%", "size": "30vw", "height": "740%"},
+        {"url": "assets/projectes acabats/10/12.JPG", "coords": "30%", "size": "15vw", "height": "850%"}
+    ],
+    "text" : "Capicua is a multifunctional auxiliary furniture that acts as a stool and magazine rack. This multifunctionality is emphasized by its sinuous shapes and the gesture that accompanies them. /n Capicua is part of a collection of furniture that celebrates Mediterranean values and culture with the understanding that position does not limit function. /n The piece that supports the entire structure is the metal tube. It is also where the color accents are placed, establishing coherence with the furniture collection. The wood laminate, through its texture, brings warmth and vitality.",
+    "height": "905%"
+}

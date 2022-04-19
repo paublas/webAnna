@@ -1,0 +1,22 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/2/1.jpeg", "coords": "15%", "size": "20vw", "height": "40%"},
+        {"url": "assets/projectes acabats/2/2.jpeg", "coords": "80%", "size": "10vw", "height": "100%"},
+        {"url": "assets/projectes acabats/2/3.jpeg", "coords": "60%", "size": "15vw", "height": "160%"},
+        {"url": "assets/projectes acabats/2/4.JPG", "coords": "5%", "size": "25vw", "height": "130%"},
+        {"url": "assets/projectes acabats/2/5.jpeg", "coords": "40%", "size": "11vw", "height": "200%"},
+        {"url": "assets/projectes acabats/2/6.jpeg", "coords": "70%", "size": "15vw", "height": "240%"},
+        {"url": "assets/projectes acabats/2/7.jpeg", "coords": "10%", "size": "30vw", "height": "270%"},
+        {"url": "assets/projectes acabats/2/8.JPG", "coords": "50%", "size": "15vw", "height": "330%"},
+        {"url": "assets/projectes acabats/2/9.JPG", "coords": "20%", "size": "10vw", "height": "360%"},
+        {"url": "assets/projectes acabats/2/10.jpeg", "coords": "60%", "size": "20vw", "height": "410%"},
+        {"url": "assets/projectes acabats/2/11.JPG", "coords": "60%", "size": "10vw", "height": "460%"},
+        {"url": "assets/projectes acabats/2/12.JPG", "coords": "15%", "size": "30vw", "height": "500%"},
+        {"url": "assets/projectes acabats/2/13.JPG", "coords": "80%", "size": "15vw", "height": "560%"},
+        {"url": "assets/projectes acabats/2/14.JPG", "coords": "5%", "size": "20vw", "height": "590%"},
+        {"url": "assets/projectes acabats/2/15.jpeg", "coords": "60%", "size": "15vw", "height": "620%"},
+        {"url": "assets/projectes acabats/2/16.jpeg", "coords": "30%", "size": "20vw", "height": "680%"}
+    ],
+    "text" : "Now more than ever, at a time of urgent climate crisis and without any effective and systemic solution in sight, it is more important than ever to claim the material economy of all design as a central aspect, beyond authorship and business; and the need to learn from those old designs and inventions that, although looked down upon with disdain by moderns, can teach us many things, especially in relation to sustainability, economy of resources, engineering and technique as an inclusive, collaborative and community-generating practice. \n The central theme of the work is to elaborate a field work in the Llobregat and to design without using industrial or digital technology. It is about going back to technological zero level. We will only be able to turn to our hands and to tools and instruments made with our hands and with local materials (natural or recycled) and always respecting the environment.",
+    "height": "750%"
+}
