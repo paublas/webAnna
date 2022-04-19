@@ -1,0 +1,16 @@
+<body>
+    <div class = "info">
+        <p style="text-transform:uppercase; font-size: xx-la;">{{project.nombre}}</p>
+        <p *ngIf = "project.with != ''">with {{project.with}}</p>
+        <p style = "font-style: italic;">{{project.date}}</p>
+    </div>
+    <div *ngFor = "let img of images">
+        <img [src] = "img.url" style = 'position: absolute; left: {{img.coords}}; top: {{img.height}}; width: {{img.size}};' class = "image">
+    </div>
+
+    <div class="center" style = "top: {{height}}">
+        <p style = "padding: 2%;"> {{text}} </p>
+    </div>
+
+
+</body>

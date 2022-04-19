@@ -1,0 +1,14 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/11/1.jpg", "coords": "10%", "size": "20vw", "height": "40%"},
+        {"url": "assets/projectes acabats/11/2.JPG", "coords": "40%", "size": "20vw", "height": "80%"},
+        {"url": "assets/projectes acabats/11/3.jpg", "coords": "80%", "size": "10vw", "height": "150%"},
+        {"url": "assets/projectes acabats/11/4.jpeg", "coords": "50%", "size": "30vw", "height": "210%"},
+        {"url": "assets/projectes acabats/11/5.jpeg", "coords": "20%", "size": "20vw", "height": "260%"},
+        {"url": "assets/projectes acabats/11/6.jpeg", "coords": "50%", "size": "35vw", "height": "320%"},
+        {"url": "assets/projectes acabats/11/7.jpg", "coords": "20%", "size": "30vw", "height": "440%"},
+        {"url": "assets/projectes acabats/11/8.jpg", "coords": "10%", "size": "10vw", "height": "380%"}
+    ],
+    "text" : "This is the result of a one week workshop led by Sociedad 0. The main goal was to create an object from found or reused material. We decided to recreate Donald Judd's Chair Benches 22, later transformed into two chairs, from scraps of wood and leftover furniture. Contrary to the original work, the final piece highlights the sincerity of the material, which does not hide its imperfections, on the contrary, they explain by themselves the history of this brutalist bench.",
+    "height": "493%"
+}

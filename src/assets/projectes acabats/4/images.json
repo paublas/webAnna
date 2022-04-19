@@ -1,0 +1,16 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/4/1.png", "coords": "10%", "size": "20vw", "height": "40%"},
+        {"url": "assets/projectes acabats/4/2.png", "coords": "60%", "size": "25vw", "height": "110%"},
+        {"url": "assets/projectes acabats/4/3.png", "coords": "30%", "size": "10vw", "height": "130%"},
+        {"url": "assets/projectes acabats/4/4.png", "coords": "5%", "size": "35vw", "height": "200%"},
+        {"url": "assets/projectes acabats/4/5.png", "coords": "60%", "size": "20vw", "height": "300%"},
+        {"url": "assets/projectes acabats/4/6.jpg", "coords": "30%", "size": "35vw", "height": "360%"},
+        {"url": "assets/projectes acabats/4/7.jpg", "coords": "10%", "size": "15vw", "height": "430%"},
+        {"url": "assets/projectes acabats/4/8.jpg", "coords": "70%", "size": "10vw", "height": "490%"},
+        {"url": "assets/projectes acabats/4/9.jpg", "coords": "30%", "size": "20vw", "height": "530%"}
+    ],
+    "text" : "Throughout history, objects have been fundamental to the understanding of humanity. The purpose of this research is to understand how each object is a product of its time and place, in conceptual terms, but also in terms of production and representation.\n For this particular project we carried out a study of the historical representation of the aurora in order to reinterpret it, finally, according to the current ideals and trends.",
+    "height": "605%"    
+    
+}

@@ -1,0 +1,20 @@
+{
+    "images" : [
+        {"url": "assets/projectes acabats/1/2.png", "coords": "10%", "size": "20vw", "height": "40%"},
+        {"url": "assets/projectes acabats/1/3.JPG", "coords": "30%", "size": "10vw", "height": "100%"},
+        {"url": "assets/projectes acabats/1/4.jpg", "coords": "50%", "size": "40vw", "height": "70%"},
+        {"url": "assets/projectes acabats/1/5.png", "coords": "40%", "size": "20vw", "height": "140%"},
+        {"url": "assets/projectes acabats/1/6.png", "coords": "60%", "size": "35vw", "height": "180%"},
+        {"url": "assets/projectes acabats/1/7.jpg", "coords": "10%", "size": "15vw", "height": "170%"},
+        {"url": "assets/projectes acabats/1/8.jpg", "coords": "6%", "size": "30vw", "height": "230%"},
+        {"url": "assets/projectes acabats/1/9.jpg", "coords": "30%", "size": "20vw", "height": "280%"},
+        {"url": "assets/projectes acabats/1/10.png", "coords": "75%", "size": "15vw", "height": "290%"},
+        {"url": "assets/projectes acabats/1/11.png", "coords": "10%", "size": "25vw", "height": "330%"},
+        {"url": "assets/projectes acabats/1/12.png", "coords": "50%", "size": "30vw", "height": "380%"},
+        {"url": "assets/projectes acabats/1/13.png", "coords": "20%", "size": "20vw", "height": "430%"},
+        {"url": "assets/projectes acabats/1/17.jpg", "coords": "60%", "size": "30vw", "height": "450%"}
+    ],
+    "text" : "Objetos encarnados is the result of a workshop based on the exploration of new forms of protest through the appropriation of objects through bodily representations. Bodies that embody political and cultural manifestations, that are exhibited, fragmented, critizised, appropriated... \n As women we are tired of living a history that repeats itself over and over again, a life where society seems to move forward without us, where we find ourselves constantly incarnating different bodies, always fulfilling the same function. Rib, apple, marriage contract, trophy, fetish, hole, muse, slave, flower... \n The objectification of women is still today a practice that reduces us to our bodies, that humiliates us and subjects us to an imposed and dominant vision. That is why with this project we aspire to create a methodology to denounce and debate this issue. Through a workshop involving women who have been affected, we aim to make the participants aware of their own oppression and discuss how to free themselves from it by transforming their self-image into a “mujer florero”: delicate, contemplative, ornamental and silent.",
+    "height": "510%"
+
+}

@@ -1,0 +1,47 @@
+<body>
+<div class="about">
+
+    
+    <img src = "assets/about/1.jpeg" style = "left: 80%; top: 60%; width: 8%;">
+    <img src = "assets/about/2.jpg" style = "left: 30%; top: 46%; width: 6%;">
+    <img src = "assets/about/3.jpg" style = "left: 60%; top: 40%; width: 10%;">
+    <img src = "assets/about/4.JPG" style = "left: 15%; top: 20%; width: 5%;">
+    <img src = "assets/about/6.JPG" style = "left: 85%; top: 15%; width: 5%;">
+
+
+    <p>Hello, welcome this is Anna! I am a sensitive person who uses different artistic expressions 
+        such as design or photography to show and express myself. I like projects I work on to set
+        creative and projectual challenges, and, for the products I design to tell a story.
+    </p>
+
+    <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum 
+    iriure dolor in hendrerit in vulputate velit es.
+    </p>
+
+    
+    <div class = "contact">
+        <p>
+            Contact: <br>
+            <span (click) = "FadeOutLink()" cdkCopyToClipboard= 'moreunistuff@gmail.com'>moreunistuff@gmail.com</span> <br>
+            <span (click) = "navigate('https://www.instagram.com/nana.denada/')">@nana.denada</span> <br>
+            +34 655826439 <br>
+        </p>
+
+
+    </div>
+
+</div>
+
+
+<div class="center">
+    <div *ngIf="hideSharedLinkCopyMessage" role="alert" id = "animated-example" class = "message fadeOut">
+        Copied to clickboard!
+    </div>
+</div>
+
+
+
+</body>

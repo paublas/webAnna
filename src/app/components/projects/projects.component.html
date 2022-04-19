@@ -1,0 +1,5 @@
+<body>
+    <div class = "container" *ngFor = "let proj of projects">
+        <img (click) = "goProject(proj)" [src] = "proj.url" style = 'position: absolute; left: {{proj.coords}}; top: {{proj.height}}; width: {{proj.size}};' class = "image {{proj.id}}" >
+    </div>
+</body>
