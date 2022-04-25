@@ -2,7 +2,10 @@ body{
     padding: 5%;
 
 }
-
+#text{
+    z-index: 100;
+    position: absolute;
+}
 p{
     font-size: 1.5vw;
     margin-bottom: 3%;
