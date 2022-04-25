@@ -5,10 +5,10 @@
         <p style = "font-style: italic;">{{project.date}}</p>
     </div>
     <div *ngFor = "let img of images">
-        <img [src] = "img.url" style = 'position: absolute; left: {{img.coords}}; top: {{img.height}}; width: {{img.size}};' class = "image">
+        <img [src] = "img.url" style = "position: absolute;" [ngStyle] = "{'left': img.coords, 'top': img.height, 'width': img.size}" class = "image">
     </div>
 
-    <div class="center" style = "top: {{height}}">
+    <div class="center" [ngStyle] = "{top: height}">
         <p style = "padding: 2%;"> {{text}} </p>
     </div>
 

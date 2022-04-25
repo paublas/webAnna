@@ -1,5 +1,6 @@
 .container{
     text-align: center;
+    height: 70vh;
 }
 
 .image{
@@ -39,4 +40,15 @@
 }
 .i11{
     cursor: url('../../../assets/cursor/11.png'), auto;
+}
+
+
+.bottomScrollable{
+    position:fixed;
+    font-size: 2vw;
+    font-style: italic;
+    bottom:0px;
+    border-top: 1px solid;
+    padding: 10px;
+    background-color: white;
 }
