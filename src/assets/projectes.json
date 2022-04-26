@@ -1,16 +1,49 @@
 {
     "projects" : [
-        {"id": "i1", "nombre": "Objectos encarnados", "url": "assets/1.jpg", "coords": "60%", "size": "20vw", "height": "40%", "with": "Marta Casals, Julia Pérez-Catalá and Manuela Quintero", "date": "November 2021"},
-        {"id": "i2", "nombre": "Llobregat", "url": "assets/2.jpeg", "coords": "5%", "size": "15vw", "height": "90%", "with": "Raquel Barrachina, Marta Casals, Eva Icardo and Núria Radresa", "date": "November 2021"},
-        {"id": "i3", "nombre": "Pull", "url": "assets/3.jpg", "coords": "50%", "size": "15vw", "height": "160%", "with": "Maria Bladé, Marta Casals, Maria Jou, Núria Radresa and Raquel Vera", "date": "June 2021"},
-        {"id": "i4", "nombre": "Déu del cel", "url": "assets/4.jpg", "coords": "70%", "size": "20vw", "height": "220%", "with": "  with Marta Casals and Núria Radresaa", "date": "June 2021"},
-        {"id": "i5", "nombre": "Less is enough x Lékué", "url": "assets/5.png", "coords": "10%", "size": "10vw", "height": "300%", "with": "with Lia Alsina, Irene Martínez and Manuela Quintero", "date": "March 2021"},
-        {"id": "i6", "nombre": "Bare x FORGO", "url": "assets/6.jpg", "coords": "50%", "size": "20vw", "height": "350%", "with": " Lia Alsina, Irene Martínez and Manuela Quintero", "date": "March 2021"},
-        {"id": "i7", "nombre": "Llibre blanc", "url": "assets/7.jpg", "coords": "20%", "size": "15vw", "height": "450%", "with": "Marta Casals and Núria Radresa", "date": "November 2020"},
-        {"id": "i8", "nombre": "Per a en Vicente", "url": "assets/8.JPG", "coords": "70%", "size": "20vw", "height": "500%", "with": "Marta Casals and Núria Radresa", "date": "November 2020"},
-        {"id": "i9", "nombre": "La Beïnal", "url": "assets/9.jpg", "coords": "20%", "size": "20vw", "height": "550%", "with": "Maria Bladé, Eva Icardo, Irene Martínez, Patricia Moreno, Simón Olives and Núria Radresa", "date": "June 2020"},
-        {"id": "i10", "nombre": "Capicua", "url": "assets/10.png", "coords": "5%", "size": "25vw", "height": "630%", "with": "Marta Casals and Núria Radresa", "date": "March 2020"},
-        {"id": "i11", "nombre": "La noche de los jueves", "url": "assets/11.png", "coords": "60%", "size": "25vw", "height": "700%", "with": "Marta Casals", "date": "December 2018"}
+        {"id": "i1", "nombre": "Objectos encarnados", "url": "assets/1.jpg", "coords": "60%", "size": "20vw", "height": "40%", 
+            "with": [ {"eng": "with Marta Casals, Julia Pérez-Catalá and Manuela Quintero"}, {"cat": "amb Marta Casals, Julia Pérez-Catalá i Manuela Quintero"} ], 
+            "date": [ {"eng": "November 2021" }, {"cat": "Novembre 2021"}]
+        },
+        {"id": "i2", "nombre": "Llobregat", "url": "assets/2.jpeg", "coords": "5%", "size": "15vw", "height": "90%", 
+            "with": [ {"eng": "with Raquel Barrachina, Marta Casals, Eva Icardo and Núria Radresa"}, {"cat": "amb Raquel Barrachina, Marta Casals, Eva Icardo i Núria Radresa"} ], 
+            "date": [ {"eng": "November 2021" }, {"cat": "Novembre 2021"}]
+        },
+        {"id": "i3", "nombre": "Pull", "url": "assets/3.jpg", "coords": "50%", "size": "15vw", "height": "160%", 
+            "with": [ {"eng": "with Maria Bladé, Marta Casals, Maria Jou, Núria Radresa and Raquel Vera" }, {"cat": "amb Maria Bladé, Marta Casals, Maria Jou, Núria Radresa and Raquel Vera"}], 
+            "date": [ {"eng": "June 2021" }, {"cat": "Juny 2021"}]
+        },
+        {"id": "i4", "nombre": "Déu del cel", "url": "assets/4.jpg", "coords": "70%", "size": "20vw", "height": "220%",
+            "with": [ {"eng": "with Marta Casals and Núria Radresa"}, {"cat": "amb Marta Casals i Núria Radresa"}], 
+            "date": [ {"eng": "June 2021" }, {"cat": "Juny 2021"}]
+        },
+        {"id": "i5", "nombre": "Less is enough x Lékué", "url": "assets/5.png", "coords": "10%", "size": "10vw", "height": "300%", 
+            "with": [ {"eng": "with Lia Alsina, Irene Martínez and Manuela Quintero"}, {"cat": "amb Lia Alsina, Irene Martínez i Manuela Quintero"}], 
+            "date": [ {"eng": "March 2021" }, {"cat": "Març 2021"}]
+        },
+        {"id": "i6", "nombre": "Bare x FORGO", "url": "assets/6.jpg", "coords": "50%", "size": "20vw", "height": "350%", 
+            "with": [{ "eng": "with Lia Alsina, Irene Martínez and Manuela Quintero"} , {"cat": "amb Lia Alsina, Irene Martínez i Manuela Quintero"}], 
+            "date": [ {"eng": "March 2021" }, {"cat": "Març 2021"}]
+        },
+        {"id": "i7", "nombre": "Llibre blanc", "url": "assets/7.jpg", "coords": "20%", "size": "15vw", "height": "450%", 
+            "with": [{"eng": "with Marta Casals and Núria Radresa"}, {"cat": "amb Marta Casals i Núria Radresa"} ], 
+            "date":  [ {"eng": "November 2020" }, {"cat": "Novembre 2020"}]
+        },
+        {"id": "i8", "nombre": "Per a en Vicente", "url": "assets/8.JPG", "coords": "70%", "size": "20vw", "height": "500%", 
+            "with": [ {"eng": "with Marta Casals and Núria Radresa"}, {"cat": "amb Marta Casals i Núria Radresa"}], 
+            "date":  [ {"eng": "November 2020" }, {"cat": "Novembre 2020"}]
+        },
+        {"id": "i9", "nombre": "La Beïnal", "url": "assets/9.jpg", "coords": "20%", "size": "20vw", "height": "550%", 
+            "with": [ {"eng": "with Maria Bladé, Eva Icardo, Irene Martínez, Patricia Moreno, Simón Olives and Núria Radresa"}, {"cat": "amb Maria Bladé, Eva Icardo, Irene Martínez, Patricia Moreno, Simón Olives i Núria Radresa"}], 
+            "date": [ {"eng": "June 2020" }, {"cat": "Juny 2020"}]
+        },
+        {"id": "i10", "nombre": "Capicua", "url": "assets/10.png", "coords": "5%", "size": "25vw", "height": "630%", 
+            "with": [ {"eng": "with Marta Casals and Núria Radresa"}, {"cat": "amb Marta Casals i Núria Radresa"} ], 
+            "date": [ {"eng": "March 2020" }, {"cat": "Març 2020"}]
+        },
+        {"id": "i11", "nombre": "La noche de los jueves", "url": "assets/11.png", "coords": "60%", "size": "25vw", "height": "700%", 
+            "with": [{"eng": "with Marta Casals"}, {"cat": "amb Marta Casals"} ], 
+            "date": [ {"eng": "December 2018" }, {"cat": "Desembre 2018"}]
+        }
     ]
 }
 

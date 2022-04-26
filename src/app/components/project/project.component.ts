@@ -15,9 +15,15 @@ export class ProjectComponent implements OnInit {
 
   project!: Project;
 
+
+
   images: any;
   text: string | undefined;
   height: string | undefined;
+  with: string | undefined;
+  date: string | undefined;
+
+  datos: any;
 
   public async getJSON(): Promise<any>{
     return this.http.get('./../../assets/projectes acabats/'+this.project.id.substring(1)+'/images.json').toPromise()
@@ -29,19 +35,32 @@ export class ProjectComponent implements OnInit {
     if(res!= null) this.project = JSON.parse(res)
 
     await this.getJSON().then(data => {
+      this.datos = data
       this.images = data.images;
-      switch(this.global.idioma){
-        case 'eng': { this.text = data.texteng; break}
-        case 'cat': { this.text = data.textcat; break;}
-        case 'esp': { this.text = data.textesp; break;}
-        default: {this.text = data.texteng}
-      }
+      this.text = data.texteng
       this.height = data.height
 
      });
-     console.log(this.images)
   }
 
+  with_L(){
+    if(this.global.idioma == 'cat' ) return this.project.with[1].cat
+    else if(this.global.idioma == 'eng' ) return this.project.with[0].eng
+    return this.project.with[0].eng
+  }
+
+  date_L(){
+    if(this.global.idioma == 'cat' ) return this.project.date[1].cat
+    else if(this.global.idioma == 'eng' ) return this.project.date[0].eng
+    return this.project.date[0].eng
+  }
+
+  text_L(){
+    if(this.global.idioma == 'eng' ) return this.datos.texteng; 
+    else if(this.global.idioma == 'cat' ) return this.datos.textcat;
+    else return this.datos.texteng
+  }
+  
 
 }
 

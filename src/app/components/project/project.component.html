@@ -1,15 +1,15 @@
 <body>
     <div class = "info">
         <p style="text-transform:uppercase; font-size: xx-la;">{{project.nombre}}</p>
-        <p *ngIf = "project.with != ''">with {{project.with}}</p>
-        <p style = "font-style: italic;">{{project.date}}</p>
+        <p >{{with_L()}}</p>
+        <p style = "font-style: italic;">{{date_L()}}</p>
     </div>
     <div *ngFor = "let img of images">
         <img [src] = "img.url" style = "position: absolute;" [ngStyle] = "{'left': img.coords, 'top': img.height, 'width': img.size}" class = "image">
     </div>
 
     <div class="center" [ngStyle] = "{top: height}">
-        <p style = "padding: 2%;"> {{text}} </p>
+        <p style = "padding: 2%;"> {{text_L()}} </p>
     </div>
 
 

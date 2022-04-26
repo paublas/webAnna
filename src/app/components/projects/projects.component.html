@@ -3,7 +3,7 @@
         <img (click) = "goProject(proj)" [src] = "proj.url" style = "position: absolute;" [ngStyle] = "{'left': proj.coords, 'top': proj.height, 'width': proj.size}" class = "image {{proj.id}}" >
     </div>
     <div class = "bottomScrollable">
-        <marquee scrollamount="12"><3 ¡HEY! ¿LIKING IT SO FAR? ¡LET'S WORK TOGETHER!! <3 YOU CAN CONTACT ME AT MOREUNISTUFF@GMAIL.COM ;) FIND ME ON INSTAGRAM @NANA.DENADA (*O*) OR REACH ME THROUGH MY PHONE +34655826439</marquee>
+        <marquee scrollamount="12">{{scrollingText_L()}}</marquee>
     </div>
 
 </body>

@@ -5,7 +5,11 @@ export interface Project{
     coords: string,
     size: string,
     height: string,
-    with: string,
-    date: string
+    with: idiomes[],
+    date: idiomes[]
   }
   
+  export interface idiomes{
+    eng: string
+    cat: string,
+  }
