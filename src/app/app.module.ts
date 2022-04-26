@@ -9,6 +9,8 @@ import { ProjectComponent } from './components/project/project.component';
 import {HttpClientModule}  from '@angular/common/http'
 import { ClipboardModule } from "@angular/cdk/clipboard";
 import { CommonModule } from '@angular/common';
+import {MatIconModule} from '@angular/material/icon'
+import { Globals } from 'src/globals';
 
   @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     HttpClientModule,
     ClipboardModule,
-    CommonModule
+    CommonModule,
+    MatIconModule
   ],
-  providers: [],
+  providers: [Globals],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

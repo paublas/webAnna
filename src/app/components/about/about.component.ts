@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-
+import { Globals } from 'src/globals';
 
 @Component({
   selector: 'app-about',
@@ -9,11 +9,13 @@ import { DOCUMENT } from '@angular/common';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(@Inject(DOCUMENT) private document: Document) { }
+  constructor(@Inject(DOCUMENT) private document: Document, public global: Globals) { }
 
   hideSharedLinkCopyMessage:boolean = false;
 
+
   ngOnInit(): void {
+    console.log(this.global.idioma)
   }
 
   navigate(url: string){

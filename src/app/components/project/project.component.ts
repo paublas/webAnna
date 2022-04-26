@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Project } from 'src/app/common/interfaces';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient} from '@angular/common/http'
-import { Observable } from 'rxjs/internal/Observable';
+import { Globals } from 'src/globals';
 
 @Component({
   selector: 'app-project',
@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/internal/Observable';
 })
 export class ProjectComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private http: HttpClient, public global: Globals) { }
 
   project!: Project;
 
@@ -30,7 +30,12 @@ export class ProjectComponent implements OnInit {
 
     await this.getJSON().then(data => {
       this.images = data.images;
-      this.text = data.text
+      switch(this.global.idioma){
+        case 'eng': { this.text = data.texteng; break}
+        case 'cat': { this.text = data.textcat; break;}
+        case 'esp': { this.text = data.textesp; break;}
+        default: {this.text = data.texteng}
+      }
       this.height = data.height
 
      });

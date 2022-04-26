@@ -1,13 +1,26 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
 <body>
   <div class = "topBar">
   
-    <button class = "buttonD" (click) = "nanaPage()" style = "float: left;">NANA.DENADA</button>
-    <button class = "buttonD" (click) = "aboutPage()" style = "float: right;">ABOUT</button>
+    <button class = "buttonD" style = "float: left;">NANA.DENADA</button>
+
+    <mat-icon class = "buttonD" (click) = "this.showIdiomes = !this.showIdiomes" style = "float: right; margin-right: 1.5%;">language</mat-icon>
+
+    <button class = "buttonD" (click) = "aboutPage()" style = "margin-right: 5%; float: right;">ABOUT</button>
   
-    <button class = "buttonD" (click) = "projectsPage()" style = "margin-right: 5%; float: right;">PROJECTS</button>
+    <button class = "buttonD" (click) = "projectsPage()" style = "margin-right: 10%; float: right;">PROJECTS</button>
+
+
   </div>
   
+  <div *ngIf = "this.showIdiomes" id = "idiomes">
+    <div class = "idioma" (click) = "selectIdioma('cat')">cat</div>
+    <div class = "idioma" (click) = "selectIdioma('esp')">esp</div>
+    <div class = "idioma" (click) = "selectIdioma('eng')">eng</div>
+
+  </div>
   
 
   

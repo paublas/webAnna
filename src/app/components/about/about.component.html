@@ -9,11 +9,14 @@
     <img src = "assets/about/6.JPG" style = "left: 85%; top: 15%; width: 5%;">
 
     <div id = text>
-        <p>Hello, welcome this is Anna! I am a sensitive person who uses different artistic expressions 
+        <p *ngIf = "global.idioma == 'eng'">Hello, welcome this is Anna! I am a sensitive person who uses different artistic expressions 
             such as design or photography to show and express myself. I like projects I work on to set
             creative and projectual challenges, and, for the products I design to tell a story.
         </p>
-    
+        <p *ngIf = "global.idioma == 'cat'">Hola, benvingut/da, sóc l'Anna! Sóc una persona sensible que utilitza diferents expressions artístiques
+            com el disseny o la fotografia per mostrar-se i expressar-se. M'agraden els projectes en els quals treballo
+            reptes creatius i projectuals, i que els productes que dissenyo expliquin una història.
+        </p>
         <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -26,9 +29,10 @@
     
     <div class = "contact">
         <p>
-            Contact: <br>
-            <span (click) = "FadeOutLink()" cdkCopyToClipboard= 'moreunistuff@gmail.com'>moreunistuff@gmail.com</span> <br>
-            <span (click) = "navigate('https://www.instagram.com/nana.denada/')">@nana.denada</span> <br>
+            Contact<span *ngIf = "global.idioma == 'cat'">e</span>:
+            <br>
+            <span class = "under" (click) = "FadeOutLink()" cdkCopyToClipboard= 'moreunistuff@gmail.com'>moreunistuff@gmail.com</span> <br>
+            <span class = "under" (click) = "navigate('https://www.instagram.com/nana.denada/')">@nana.denada</span> <br>
             +34 655826439 <br>
         </p>
 

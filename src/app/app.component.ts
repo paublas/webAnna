@@ -1,26 +1,32 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { Globals } from 'src/globals';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent{
   title = 'webAnna';
 
-  constructor(private router: Router){}
+  showIdiomes: boolean = false
 
-  nanaPage(){
-    this.router.navigate(["nanadenada"])
-  }
-  
+
+  constructor(private router: Router, public global: Globals){}
+
   projectsPage(){
     this.router.navigate(["projects"])
   }
 
   aboutPage(){
     this.router.navigate(["about"])
-
   }
+
+  selectIdioma(idioma: string){
+    this.global.idioma = idioma;
+    this.showIdiomes = false;
+  }
+
 
 }
