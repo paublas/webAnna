@@ -11,13 +11,15 @@ import { ClipboardModule } from "@angular/cdk/clipboard";
 import { CommonModule } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon'
 import { Globals } from 'src/globals';
+import { CvComponent } from './components/cv/cv.component';
 
   @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ProjectsComponent,
-    ProjectComponent
+    ProjectComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,

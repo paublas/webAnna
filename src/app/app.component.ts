@@ -23,6 +23,10 @@ export class AppComponent{
     this.router.navigate(["about"])
   }
 
+  cvPage(){
+    this.router.navigate(['CV'])
+  }
+
   selectIdioma(idioma: string){
     this.global.idioma = idioma;
     this.showIdiomes = false;

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
+import { CvComponent } from './components/cv/cv.component';
 import { ProjectComponent } from './components/project/project.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
@@ -8,6 +9,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'project', component: ProjectComponent},
+  { path: 'CV', component: CvComponent},
   { path: '',   redirectTo: '/projects', pathMatch: 'full' },
 
 ];
