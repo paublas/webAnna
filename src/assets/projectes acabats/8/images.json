@@ -1,20 +1,20 @@
 {
     "images" : [
-        {"url": "assets/projectes acabats/8/1.png", "coords": "10%", "size": "15vw", "height": "560%"},
-        {"url": "assets/projectes acabats/8/2.png", "coords": "17%", "size": "15vw", "height": "610%"},
-        {"url": "assets/projectes acabats/8/3.JPG", "coords": "70%", "size": "15vw", "height": "110%"},
-        {"url": "assets/projectes acabats/8/4.png", "coords": "10%", "size": "30vw", "height": "40%"},
-        {"url": "assets/projectes acabats/8/5.jpeg", "coords": "30%", "size": "25vw", "height": "170%"},
-        {"url": "assets/projectes acabats/8/6.gif", "coords": "70%", "size": "25vw", "height": "300%"},
-        {"url": "assets/projectes acabats/8/7.gif", "coords": "70%", "size": "10vw", "height": "240%"},
-        {"url": "assets/projectes acabats/8/8.gif", "coords": "25%", "size": "25vw", "height": "390%"},
-        {"url": "assets/projectes acabats/8/9.png", "coords": "10%", "size": "10vw", "height": "290%"},
-        {"url": "assets/projectes acabats/8/10.png", "coords": "70%", "size": "15vw", "height": "490%"},
-        {"url": "assets/projectes acabats/8/11.png", "coords": "70%", "size": "15vw", "height": "490%"},
-        {"url": "assets/projectes acabats/8/12.JPG", "coords": "70%", "size": "15vw", "height": "490%"},
-        {"url": "assets/projectes acabats/8/13.JPG", "coords": "70%", "size": "15vw", "height": "490%"}
+        {"url": "assets/projectes acabats/8/1.png", "coords": "10%", "size": "25vw", "height": "40%"},
+        {"url": "assets/projectes acabats/8/2.png", "coords": "60%", "size": "25vw", "height": "100%"},
+        {"url": "assets/projectes acabats/8/3.JPG", "coords": "30%", "size": "15vw", "height": "150%"},
+        {"url": "assets/projectes acabats/8/4.png", "coords": "5%", "size": "25vw", "height": "290%"},
+        {"url": "assets/projectes acabats/8/5.jpeg", "coords": "70%", "size": "15vw", "height": "250%"},
+        {"url": "assets/projectes acabats/8/6.gif", "coords": "30%", "size": "20vw", "height": "370%"},
+        {"url": "assets/projectes acabats/8/7.gif", "coords": "80%", "size": "10vw", "height": "420%"},
+        {"url": "assets/projectes acabats/8/8.gif", "coords": "5%", "size": "25vw", "height": "480%"},
+        {"url": "assets/projectes acabats/8/9.png", "coords": "20%", "size": "25vw", "height": "550%"},
+        {"url": "assets/projectes acabats/8/10.png", "coords": "70%", "size": "15vw", "height": "620%"},
+        {"url": "assets/projectes acabats/8/11.png", "coords": "10%", "size": "30vw", "height": "710%"},
+        {"url": "assets/projectes acabats/8/12.JPG", "coords": "60%", "size": "30vw", "height": "790%"},
+        {"url": "assets/projectes acabats/8/13.JPG", "coords": "30%", "size": "30vw", "height": "870%"}
     ],
     "texteng" : "One of the most prominent social exclusions in our society is that of people who sleep on the street. The poverty of this group is a reality very close to all citizens and at the same time one of the most ignored. Although it is found in very close places, it is invisible to our eyes. This discrimination ends up being a reflection of the moral and political level of our societies. Lacking permanent housing, one is systematically excluded from many other opportunities. \n\n This is a collaborative design project with Arrels Fundació, an organization that works for homeless people. The project was carried out at La Llar Pere Barnés, where they offer medium and long term residential services for people who have been physically and emotionally affected by the fact of having lived on the street. This first project focuses on Vicente Díaz, a resident of the Llar Pere Barnés. Vicente attracts attention because he always wears a jacket and two funny bags, always full. The final result is a vest that allows Vicente to collect all his belongings in a single piece of clothing. The position, size and fastening of each bag has been specifically designed for Vicente, his habits and his preferences. \n\n Note that all the material used during this project in all its phases is reused. We wanted to commit to the idea of upcycling, so we took advantage of scraps of wood, textile leftover and already owned material. \n\n",
     "textcat" : "Una de les exclusions socials més destacades de la nostra societat és la de les persones que dormen al carrer. La pobresa d'aquest col·lectiu és una realitat molt propera a tota la ciutadania i alhora una de les més ignorades. Encara que es troba en llocs molt propers, és invisible als nostres ulls. Aquesta discriminació acaba sent un reflex del nivell moral i polític de les nostres societats. A falta d'habitatge permanent, un està sistemàticament exclòs de moltes altres oportunitats. \n\n Aquest es tracta d'un projecte de disseny col·laboratiu amb Arrels Fundació, una organització que treballa per a persones sense llar. El projecte s'ha dut a terme a La Llar Pere Barnés, on ofereixen serveis residencials a mitjà i llarg termini per a persones afectades física i emocionalment pel fet d'haver viscut al carrer. Aquest primer projecte se centra en Vicente Díaz, veí de la Llar Pere Barnés. En Vicente crida l'atenció perquè sempre porta una jaqueta i dues ronyoneres sempre plenes. El resultat final és una armilla que permet a Vicente recollir totes les seves pertinences en una sola peça de roba. La posició, la mida i la subjecció de cada bossa ha estat dissenyada específicament per a Vicente, els seus hàbits i les seves preferències. \n\n Tot el material utilitzat durant aquest projecte en totes les seves fases ha estat reutilitzat. Volíem apostar per la idea de l'upcycling, així que vam aprofitar restes de fusta, de tèxtils i material que ja teniem. \n\n",
-    "height": "625%"
+    "height": "920%"
 }

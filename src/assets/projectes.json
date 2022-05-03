@@ -1,6 +1,6 @@
 {
     "projects" : [
-        {"id": "i1", "nombre": "Objectos encarnados", "url": "assets/1.jpg", "coords": "60%", "size": "20vw", "height": "40%", 
+        {"id": "i1", "nombre": "Objetos encarnados", "url": "assets/1.jpg", "coords": "60%", "size": "20vw", "height": "40%", 
             "with": [ {"eng": "with Marta Casals, Julia Pérez-Catalá and Manuela Quintero"}, {"cat": "amb Marta Casals, Julia Pérez-Catalá i Manuela Quintero"} ], 
             "date": [ {"eng": "November 2021" }, {"cat": "Novembre 2021"}]
         },
