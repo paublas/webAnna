@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Globals } from 'src/globals';
 
 @Component({
   selector: 'app-cv',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
-  constructor() { }
+  constructor(public global: Globals) { }
 
   public imgs2 = ['', '.1', '.2', '.3'];
   public imgs3 = ['', '.1'];
